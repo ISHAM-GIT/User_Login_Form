@@ -40,7 +40,7 @@ if (isset($_SESSION["user"])) {
         ?>
         
       <form action="login.php" method="post">
-          <div class="image-container" style="border-radius:20px;padding:2px;background-size:cover ;background: url('./image.jpg') no-repeat center center;">
+<!--           <div class="image-container" style="border-radius:20px;padding:2px;background-size:cover ;background: url('./image.jpg') no-repeat center center;"> -->
         <span><h2>Login Form</h2></span>
         <div class="form-group">
             <input type="email" placeholder="Enter Email:" name="email" class="form-control">
@@ -53,7 +53,7 @@ if (isset($_SESSION["user"])) {
         </div>
         <div><p>Not registered yet <a href="registration.php">Register Here</a></p></div>
                 <!-- <img src="./insert.jpg" id="img" alt=""> -->
-        </div>
+<!--         </div> -->
     </form>
     </div>
 </body>
